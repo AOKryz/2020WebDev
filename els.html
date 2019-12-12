@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learned Element Tags</title>
+</head>
+<body>
+  <h6><a href="index.html"><em>back</em></a></h6>
+  <h1>Learned Element Tags</h1>
+  <ul>
+    <li>&lth#>: Heading tag. # denotes the size, with 1 being the largest and 6 being the smallest.</li>
+    <li>&ltbr>: Line break. Creates a line break in the text.</li>
+    <li>&lthr>: Horizontal Rule. Creates a line across the screen
+      <ul><li>attributes? size="#", where # is the increasing size of the bar</li></ul></li>
+    <li>&ltp>: Creates a paragrah of text</li>
+    <li>&ltem>: Creates emphasis by using italics. Is occasionally used to machine reading. You can still use italics, but they are for specific circumstances. Check the MDN</li>
+    <li>&ltstrong>: Creates a bold emphasis. You can still use a direct &ltb> tag, however the same conventions as <em>em/i</em> is true</li>
+
+    <li>LISTS:
+      <ul>
+        <li>&ltul>: Creates an <strong>unordered</strong> list. Can be nested. Pass an attribute to change the styling</li>
+        <li>&ltol>: Creates an <stro>ordered</stro> list. Same as above.</li></ul></li>
+
+    <li>IMAGES:
+      <ul><li>Called with the tag &ltimg src="", alt="">: Can be web or local links.</li>
+      <li>Alt provides the error text/keywords if the image can't be displayed</li></ul>
+    </li>
+    <li>&lta href="">: Anchor tag. Lets you create weblinks</li>
+    <li>TABLES:
+      <ul><li> Created with &ltable></li>
+
+        <ul><li>&lttr>: Tags around a table row</li>
+        <li>&lttd>: Tags around the table data.</li>
+        <li>&ltthead>: The table header tag</li>
+          <ul><li>&ltth> Is the table header cell, where you put the header title</li>
+            <ul><li>You can use 'colspan="#"' to make the title take up multiple columns </li></ul></ul>
+        <li>&lttfoot>: The table footer tag</li>
+        <li>&lttbody>: The table body tag</li>
+        </ul>
+
+
+      </ul>
+
+    </li>
+    <li>FORMS: <ul>
+      <li>Created with &ltform class="" action="index.html" method="post"><ul><li>enctype="text/plain" will pass regular text thats enetered</li><li>action denotes what you want to do. You could have mailto:a@b.c and it will open the mail client when submitted</li></ul></li>
+      <li>You create separate elements of data with the &ltinput type="x" name="" value=""><ul>
+        <li>Changing the x variable will chang ethe type of input. Notable examples are: <ul><li>range</li><li>text</li><li>password</li><li>date</li><li>email</li><li>month</li><li>number</li><li>search</li><li>submit</li><li>url</li></ul></li></ul>
+        <li>Each of these input boxes are labelled with &ltlabel for=""><em>title here</em>&lt/label> </li>
+      <li>there is an additional larger/resizable textbox called with &lttextarea name="Message" rows="x" cols="y"></textarea></li>
+      </li>
+    </ul></li>
+  </ul>
+
+
+</body>
+</html>
